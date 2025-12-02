@@ -12,4 +12,5 @@
         "zendframework/zendframework": "2.4.13",
         "dino/dompdf-module": "dev-master"
     }
+
 }

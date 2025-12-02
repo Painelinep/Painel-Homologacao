@@ -18,8 +18,9 @@ return array(
     'module_listener_options' => array(
         'module_paths' => array(
             './module',
+            './module/moduloapi',
             './vendor',
-            './vendor/moduloapi',
+            
         ),
         'config_glob_paths' => array(
             'config/autoload/global.php',
