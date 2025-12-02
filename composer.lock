@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "62ca13a796ba9df74a67e78188af513a",
+    "content-hash": "47a42f3836ab844cbd3c11c9c4cb740c",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -3654,32 +3654,22 @@
         },
         {
             "name": "zendframework/zend-i18n-resources",
-            "version": "2.6.1",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-i18n-resources.git",
-                "reference": "3a2f5a246779f05d4fe0c47738d4d2271e484aee"
+                "reference": "7313a7711d283ade0fccce162b49c6ee62b02763"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-i18n-resources/zipball/3a2f5a246779f05d4fe0c47738d4d2271e484aee",
-                "reference": "3a2f5a246779f05d4fe0c47738d4d2271e484aee",
+                "url": "https://api.github.com/repos/zendframework/zend-i18n-resources/zipball/7313a7711d283ade0fccce162b49c6ee62b02763",
+                "reference": "7313a7711d283ade0fccce162b49c6ee62b02763",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.6 || ^7.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.5",
-                "zendframework/zend-coding-standard": "~1.0.0"
+                "php": ">=5.3.23"
             },
             "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
-                }
-            },
             "autoload": {
                 "classmap": [
                     "src/Resources.php"
@@ -3691,21 +3681,16 @@
             ],
             "description": "Provides validator translations for zend-i18n's Translator",
             "keywords": [
-                "ZendFramework",
                 "resources",
                 "translations",
-                "zf"
+                "zf2"
             ],
             "support": {
-                "chat": "https://zendframework-slack.herokuapp.com",
-                "docs": "https://docs.zendframework.com/zend-i18n-resources/",
-                "forum": "https://discourse.zendframework.com/c/questions/components",
                 "issues": "https://github.com/zendframework/zend-i18n-resources/issues",
-                "rss": "https://github.com/zendframework/zend-i18n-resources/releases.atom",
-                "source": "https://github.com/zendframework/zend-i18n-resources"
+                "source": "https://github.com/zendframework/zend-i18n-resources/tree/master"
             },
             "abandoned": "laminas/laminas-i18n-resources",
-            "time": "2019-06-25T01:21:12+00:00"
+            "time": "2015-05-07T14:52:27+00:00"
         },
         {
             "name": "zendframework/zend-inputfilter",

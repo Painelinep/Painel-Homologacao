@@ -10,7 +10,8 @@
     "require": {
         "php": ">=7.0.0",
         "zendframework/zendframework": "2.5.3",
-        "dino/dompdf-module": "dev-master"
+        "dino/dompdf-module": "dev-master",
+        "zendframework/zend-i18n-resources": "2.5"
     },
     "config": {
         "audit": {
